@@ -14,4 +14,40 @@ ul,ol{
     list-style: none;
 }
 
+/* Project Rules */
+
+.header-logo{
+    max-width: 1024px;
+    border: 2px solid black;
+    padding: 20px 0;
+    padding-left: 20px;
+    background-color: rgb(194, 238, 236);
+}
+
+.heading{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.heading.center{
+    vertical-align: middle;
+
+}
+.main-container{
+    background-color: white;
+    max-width: 600px;
+    max-height: 720px;
+    border: 2px solid gray;
+}
+
+
+
+
+
+/* Utilities Rules */
+
+.bg-main{
+    padding: 80px 120px;
+    background-color: rgb(191, 214, 234);
+}
 
