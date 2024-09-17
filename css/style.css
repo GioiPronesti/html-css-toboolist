@@ -16,6 +16,23 @@ ul,ol{
 
 /* Project Rules */
 
+#add-task{
+    background-color: rgb(21, 144, 244);
+    border-radius: 5px;
+    border: none;
+    width:75px;
+    height:25px;
+}
+
+#add-section{
+    background-color: white;
+    color: rgb(180, 176, 173);
+    border-radius: 5px;
+    border: 1px solid gray;
+    width:100px;
+    height:25px;
+}
+
 .header-logo{
     max-width: 1024px;
     border: 2px solid black;
@@ -37,9 +54,17 @@ ul,ol{
     background-color: white;
     max-width: 600px;
     max-height: 720px;
-    border: 2px solid gray;
+    border-radius: 5px;
+    
 }
 
+.card-bottom{
+    background-color: white;
+    max-width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
 
 
 
